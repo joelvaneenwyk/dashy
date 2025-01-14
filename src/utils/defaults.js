@@ -89,6 +89,7 @@ module.exports = {
     'tama',
     'neomorphic',
     'glass-2',
+    'night-bat',
   ],
   /* Default color options for the theme configurator swatches */
   swatches: [
@@ -220,7 +221,7 @@ module.exports = {
   },
   /* API endpoints for widgets that need to fetch external data */
   widgetApiEndpoints: {
-    anonAddy: 'https://app.anonaddy.com',
+    anonAddy: 'https://app.addy.io',
     astronomyPictureOfTheDay: 'https://apod.as93.net/apod',
     blacklistCheck: 'https://api.blacklistchecker.com/check',
     codeStats: 'https://codestats.net/',
@@ -244,6 +245,7 @@ module.exports = {
     publicIp: 'https://ipapi.co/json',
     publicIp2: 'https://api.ipgeolocation.io/ipgeo',
     publicIp3: 'http://ip-api.com/json',
+    publicIp4: 'https://api.ip2location.io/',
     readMeStats: 'https://github-readme-stats.vercel.app/api',
     rescueTime: 'https://www.rescuetime.com/anapi/data',
     rssToJson: 'https://api.rss2json.com/v1/api.json',
@@ -318,6 +320,7 @@ module.exports = {
     iconPaths: {
       favicon64: './web-icons/favicon-64x64.png',
       favicon32: './web-icons/favicon-32x32.png',
+      favicon16: './web-icons/favicon-16x16.png',
       maskIcon: './web-icons/dashy-logo.png',
       msTileImage: './web-icons/dashy-logo.png',
     },
